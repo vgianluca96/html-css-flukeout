@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-div{
+body {
+    background-color: rgb(202, 252, 202);
+}
+
+div.titolo{
     padding:50px;
     font-size: 50px;
     font-family: Arial;
@@ -14,4 +18,10 @@ div{
 
 img {
     width: 500px;
+}
+
+div.immagine {
+    width:80%;
+    margin: auto;
+    text-align: center;
 }
