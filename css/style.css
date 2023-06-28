@@ -5,16 +5,17 @@
 }
 
 :root{
-    --diner-txtcolor: rgb(16, 81, 16);
+    --txtcolor: rgb(16, 81, 16);
     --bg-body-color: rgb(202, 252, 202);
     --bg-header-color: rgb(95, 208, 95);
-    --bg-img-color: rgb(121, 241, 121);
+    --bg-card-color: rgb(121, 241, 121);
+    --border-color: green;
 }
 
 body {
     background-color: var(--bg-body-color);
     font-family: Arial;
-    color: var(--diner-txtcolor);
+    color: var(--txtcolor);
 }
 
 div.titolo{
@@ -35,13 +36,14 @@ div.card {
     margin-top: 5%;
     padding: 2%;
     text-align: center;
-    background-color: var(--bg-img-color);
+    background-color: var(--bg-card-color);
     border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px green;
 }
 
 div.card_header {
     padding: 2%;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid var(--border-color);
     font-size: 15px;
     font-weight: bold;
 }
