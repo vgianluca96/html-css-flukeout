@@ -32,8 +32,8 @@ img {
 div.card {
     width: 80%;
     margin: auto;
-    margin-top: 40px;
-    padding: 4%;
+    margin-top: 5%;
+    padding: 2%;
     text-align: center;
     background-color: var(--bg-img-color);
     border-radius: 10px;
