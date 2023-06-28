@@ -8,20 +8,42 @@ body {
     background-color: rgb(202, 252, 202);
 }
 
+:root{
+    --diner-txtcolor: rgb(16, 81, 16);
+    --bg-color: rgb(95, 208, 95);
+    --bg-img-color: rgb(121, 241, 121);
+}
+
 div.titolo{
-    padding:50px;
+    padding:2%;
     font-size: 50px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
+    color: var(--diner-txtcolor);
+    background-color: var(--bg-color);
 }
 
 img {
-    width: 500px;
+    width: 75%;
 }
 
 div.immagine {
     width:80%;
     margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--bg-img-color);
+    border-radius: 10px;
+
+}
+
+div.footer {
+    padding:40px;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: italic;
     text-align: center;
 }
